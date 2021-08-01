@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.login a,
+.reg a {
+    text-decoration: none;
+    color: #000;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(#78f,#f78);
+}
+
+.loginandreg {
+    width: 400px;
+    height: 330px;
+    background-color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.from1 {
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    font-size: 20px;
+    color: rgb(99, 121, 243);
+}
+
+.reg {
+    display: none;
+}
+
+.form-group {
+    padding: 0 30px;
+    margin-bottom: 20px;
+}
+.form-group input {
+    height: 40px;
+    padding-left: 25px;
+}
+.links {
+    display: flex;
+    justify-content: flex-end;
+}
+.col-sm-12 {
+    position: relative;
+}
+.col-sm-12 .glyphicon {
+    position: absolute;
+    left: 20px;
+    top: 13px;
+
+}
+
+.mz,
+.mm,
+.mz1,
+.mm1,
+.re {
+    position: absolute;
+    top: 40px;
+    left: 20px;
+    font-size: 12px;
+    text-align: left;
+}
+
+.red {
+    color:red;
+}
+
+.green {
+    color: green;
+}
