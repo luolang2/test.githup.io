@@ -4,9 +4,9 @@
     box-sizing: border-box;
 }
 
-.login a,
-.reg a {
+a {
     text-decoration: none;
+    font-size: 12px;
     color: #000;
 }
 
@@ -17,64 +17,45 @@ body {
 
 .loginandreg {
     width: 400px;
-    height: 330px;
+    height: 310px;
     background-color: #fff;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%,-50%);
+    margin: 200px auto;
 }
 
-.from1 {
+.title {
     height: 60px;
+    width: 100%;
+    font-size: 20px;
+    color: rgb(36, 164, 238);
+    font-weight: 700;
     text-align: center;
     line-height: 60px;
-    font-size: 20px;
-    color: rgb(99, 121, 243);
 }
 
 .reg {
     display: none;
+} 
+
+.layui-form {
+    padding: 0 30px;
 }
 
-.form-group {
-    padding: 0 30px;
-    margin-bottom: 20px;
-}
-.form-group input {
-    height: 40px;
-    padding-left: 25px;
-}
 .links {
     display: flex;
     justify-content: flex-end;
 }
-.col-sm-12 {
+
+.layui-form-item {
     position: relative;
 }
-.col-sm-12 .glyphicon {
+
+.layui-icon {
     position: absolute;
-    left: 20px;
-    top: 13px;
-
+    top: 9px;
+    left: 10px;
 }
 
-.mz,
-.mm,
-.mz1,
-.mm1,
-.re {
-    position: absolute;
-    top: 40px;
-    left: 20px;
-    font-size: 12px;
-    text-align: left;
+.layui-input {
+    padding-left: 32px;
 }
-
-.red {
-    color:red;
-}
-
-.green {
-    color: green;
-}
+/* Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MjY2MzUsInVzZXJuYW1lIjoiYTEwMDg2MTEiLCJwYXNzd29yZCI6IiIsIm5pY2tuYW1lIjoiIiwiZW1haWwiOiIiLCJ1c2VyX3BpYyI6IiIsImlhdCI6MTYyNzgyNzMwOCwiZXhwIjoxNjI3ODYzMzA4fQ.YWlDBDRzPtvtPmc-v9CcqAlhxY8UYRCOxbjoN7eyay4 */
