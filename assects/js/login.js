@@ -47,6 +47,8 @@ $(function () {
                     return layer.msg('登陆失败');
                 }
                 layer.msg('登陆成功');
+                //把token值存储在本地
+                localStorage.setItem('token', res.token)
                 // 跳转页面到主页
                 location.href = '/index.html';
             }
