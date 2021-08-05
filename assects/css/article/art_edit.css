@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 15px;
+    background-color: #f2f3f5;
+}
+
+.layui-form-label {
+    width: 100px;
+}
+
+.cropper-container {
+    display: flex;
+}
+
+.cropper-box {
+    width: 400px;
+    height: 280px;
+}
+
+#image {
+    max-width: 400px;
+    /* 这个设置很重要! */
+    max-height: 280px;
+}
+
+.img-preview {
+    width: 200px;
+    height: 140px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.cropper-container {
+    display: flex;
+}
+
+.cropper-box {
+    margin-right: 15px;
+}
+
+.right-box {
+    text-align: center;
+}
+
+
